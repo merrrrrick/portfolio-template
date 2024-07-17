@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Merrick Pereira Portfolio</title>
+  <meta name="title" content="Merrick Pereira Portfolio.">
+  <meta name="description" content="This is a personal portfolio">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="150" height="26" alt="logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="84" height="26" alt="logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#project" class="navbar-link" data-nav-link>Project</a>
+          </li>
+
+          <li>
+            <a href="#resume" class="navbar-link" data-nav-link>Resume</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Merrick <br>Pereira</h1>
+
+            <p class="hero-subtitle">
+              Web & App Developer
+            </p>
+
+            <div class="hero-banner">
+              <img src="./assets/images/hero-bann.png" width="800" height="800" alt="Merrick Pereira" class="w-100">
+            </div>
+
+            <p class="section-text">
+              Hi, Merrick Pereira here, a creative web and app developer driven by a passion for making a positive
+              impact. I specialize in crafting captivating digital products that push boundaries and enhance
+              experiences. Let's collaborate and create something extraordinary.
+            </p>
+
+            <a href="#" class="btn has-before" onclick="window.open('./assets/images/merrick_resume.pdf')"
+              class="btn has-before">
+              <span class="span">Download CV</span>
+
+              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service text-center" aria-label="my services" id="service">
+        <div class="container">
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-1.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a>
+                    Web <br>
+                    Development
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-3.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a>
+                    Graphic <br>
+                    Design
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-4.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a>
+                    Mobile <br>
+                    Application
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about-me" id="about">
+        <div class="container">
+
+          <div class="tab-container">
+            <ul class="tab-btn-list">
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6 active" data-tab-btn="about">About Me</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="skillset">Skillset</button>
+              </li>
+            </ul>
+
+            <div class="tab-content active" data-tab-content="about">
+              <div class="grid-list">
+
+                <figure class="about-banner img-holder" style="--width: ; --height: ;" data-tilt>
+                  <img src="./assets/images/about-banner.jpg" width="570" height="420" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </figure>
+
+                <div class="about-content">
+
+                  <h2 class="h4 title section-title mobile-title">
+                    A very small stage in a vast cosmic.
+                  </h2>
+
+                  <p class="section-text">
+                    A passionate web developer with a knack for crafting clean and efficient code. I've honed my skills
+                    in front-end and back-end development to create seamless, user-friendly web experiences.
+                  </p>
+
+                  <ul class="about-list">
+
+                    <li class="about-item">
+                      <p class="list-title">Name</p>
+
+                      <span class="span title h5 details">Merrick Joush Pereira</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Phone Number</p>
+
+                      <span class="span title h5 details">+91 9921221357</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Email Address</p>
+
+                      <span class="span title h5 details">merrickpereira@gmail.com</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Social Network</p>
+
+                      <div class="social-list">
+
+                        <a href="https://www.instagram.com/merrrrrick.blehhh" class="social-link h6"
+                          title="Instagram">Ig.</a>
+                        <a href="https://twitter.com/merrrick_blehhh" class="social-link h6" title=" Twitter">Tw.</a>
+                        <a href="https://www.linkedin.com/in/merrick-pereira-592440264/" class="social-link h6"
+                          title="Linkedin">Ln.</a>
+                        <a href="https://github.com/merrrrrick" class="social-link h6" title="Github">Gh.</a>
+
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="tab-content myskills" data-tab-content="skillset">
+              <div class="mygrid">
+                <div class="box">
+                  <img src="./assets/images/html.png">
+                </div>
+                <div class="box">
+                  <img src="./assets/images/css.png">
+                </div>
+                <div class="box">
+                  <img src="./assets/images/js.png">
+                </div>
+              </div>
+              <div class="mygrid">
+                <div class="box">
+                  <img src="./assets/images/php.png">
+                </div>
+                <div class="box">
+                  <img src="./assets/images/react.png">
+                </div>
+                <div class="box">
+                  <img src="./assets/images/nodejs.png">
+                </div>
+              </div>
+              <div class="mygrid">
+                <div class="box">
+                  <img src="./assets/images/jquery.png">
+                </div>
+                <div class="box">
+                  <img src="./assets/images/photoshop.png">
+                </div>
+                <div class="box">
+                  <img src="./assets/images/bootstrap.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #PROJECTS
+      -->
+
+      <section class="section project" aria-label="my latest projects" id="project">
+
+        <ul class="slider-list">
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-1.png" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Netflix Clone" class="img-cover">
+
+                <a href="https://netflix-clone-sage-eight.vercel.app/" target="_blank" class="btn btn:hover">
+                  <span class="span">View Project</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Responsive Web Application</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Netflix Clone</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-2.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Front End Development & Maintenance" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">View Project</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Web, Product</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Front End Development & Maintenance</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-3.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Flutter Framework & Warframe Design" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">View Project</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Web, Product</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Flutter Framework & Warframe Design</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-4.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Full Web Development Project With JavaScript" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">View Project</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Web, Product</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Full Web Development Project With JavaScript</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-5.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Cloud Migration & AWS Services" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">View Project</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Web, Product</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Cloud Migration & AWS Services</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume" id="resume">
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h2 class="title h2 section-title">Education</h2>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Padre Conceicao College of Engineering</h4>
+
+              <span>2021 — Present</span>
+
+              <p class="timeline-text">
+                Currently pursuing a Degree in Bachelor of Engineering in Information Technology
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Fr. Agnel Multipurpose Higher Secondary School</h4>
+
+              <span>2019 — 2021</span>
+
+              <p class="timeline-text">
+                Passed out in the field of Science with a percentage of 79%
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Fr. Agnel Multipurpose High School</h4>
+
+              <span>2013 — 2019</span>
+
+              <p class="timeline-text">
+                Passed out with a percentage of 91.50%
+              </p>
+
+            </li>
+
+          </ol>
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">VanillaKart Internship</h4>
+
+              <span>July 2024 — August 2024</span>
+
+              <p class="timeline-text">
+                Online Web Development and Business Development Executive Internship
+              </p>
+
+            </li>
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Art director</h4>
+
+              <span>2013 — 2015</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web designer</h4>
+
+              <span>2010 — 2013</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+          </ol> -->
+
+
+        </section>
+
+
+
+
+
+        <!-- 
+        - #CONTACT
+      -->
+
+        <section class="section contact" aria-label="contact me" id="contact">
+          <div class="container">
+
+            <h2 class="title h2 section-title">Get In Touch</h2>
+
+            <div class="contact-content">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2500.175678495591!2d73.91143825253887!3d15.308424507936266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1721197539899!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+              <ul class="contact-list">
+
+                <li class="contact-item">
+
+                  <div class="item-icon">
+                    <img src="./assets/images/contact-icon-1.png" width="50" height="50" loading="lazy"
+                      alt="contact icon">
+                  </div>
+
+                  <div>
+                    <span class="title h6 ctct">+91 9921221357</span>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="item-icon">
+                    <img src="./assets/images/contact-icon-2.png" width="50" height="50" loading="lazy"
+                      alt="contact icon">
+                  </div>
+
+                  <div>
+                    <address class="title h6 ctct">
+                      Betalbatim, Salcete-Goa <br>
+                      403713, IND
+                    </address>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="item-icon">
+                    <img src="./assets/images/contact-icon-3.png" width="50" height="50" loading="lazy"
+                      alt="contact icon">
+                  </div>
+
+                  <div>
+                    <span class="title h6 ctct">merrick.pereira@outlook.com</span>
+                    <span class="title h6 ctct">merrickpereira@gmail.com</span>
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </section>
+
+      </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        Merrick Pereira
+      </p>
+
+      <a href="#top" class="back-top-btn">
+        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+        <span class="span">Back To Top</span>
+      </a>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor-dot" data-cursor></div>
+  <div class="cursor-outline" data-cursor></div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
