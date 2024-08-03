@@ -961,7 +961,6 @@ textarea.input-field {
   }
 }
 
-
 @media (min-width: 575px) {
 
   /**
@@ -1077,10 +1076,6 @@ textarea.input-field {
     justify-content: center;
    }
 }
-
-
-
-
 
 /**
  * responsive for large than 768px screen
