@@ -1,1 +1,1 @@
-<h2>Merrick-portfolio</h2>
+<h2>Merrick-Portfolio</h2>
